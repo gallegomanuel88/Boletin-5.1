@@ -16,12 +16,9 @@ public class Bol52 {
     public static void main(String[] args) {
      
         Satelite obj1 = new Satelite ();
-        obj1.verPosicion();
         JOptionPane.showMessageDialog(null, "Valor inicial de meridiano "+obj1.getMeridiano()+" de paralelo "+obj1.getParalelo()+" y de la distancia a la tierra "+obj1.getDistanciaTerra());
         
-        Satelite obj2 = new Satelite ();
-        String respuesta1 = JOptionPane.showInputDialog("Introduce el meridiano: ");
-        obj2.getMeridiano(Double.parseDouble(respuesta1));
-    
+        Satelite obj2 = new Satelite (5, 7, 10);
+        obj2.verPosicion ();
     }
 }
