@@ -41,6 +41,6 @@ public double getDistanciaTerra (){
 }
 public void verPosicion ( ) {
 
-JOptionPane.showMessageDialog(null,"o satelite atopase  no paralelo "+ paralelo + ", meridiano " + meridiano+ ", a unha distancia da terra " + distanciaTerra );
+JOptionPane.showMessageDialog(null,"O satelite atopase  no paralelo "+ paralelo + ", meridiano " + meridiano+ ", a unha distancia da terra " + distanciaTerra );
 }
 }
